@@ -1,0 +1,13 @@
+serviceId: NOTIFICATIONSERVICE
+server:
+  port: 9015
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    refresh:
+      enabled: true
+
